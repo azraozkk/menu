@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sıcak İçecekler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    .back-button {
+      margin-bottom: 20px;
+      display: inline-block;
+      color: #00aaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      max-width: 600px;
+      margin: auto;
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #333;
+      padding: 8px 0;
+    }
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <a class="back-button" href="index.html">← Ana Sayfa</a>
+  <h2>Sıcak İçecekler</h2>
+  <ul>
+    <li><span>Türk Kahvesi</span><span>50₺</span></li>
+    <li><span>Dibek Kahvesi</span><span>60₺</span></li>
+    <li><span>Çay</span><span>15₺</span></li>
+    <li><span>Fincan Çay</span><span>45₺</span></li>
+  </ul>
+  <footer>© 2025 Last Summer</footer>
+</body>
+</html>
